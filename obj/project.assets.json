@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Burak\\Desktop\\NewtEST\\Empty\\Empty.csproj",
-      "projectName": "Empty",
-      "projectPath": "C:\\Users\\Burak\\Desktop\\NewtEST\\Empty\\Empty.csproj",
+      "projectUniqueName": "C:\\Users\\Burak\\Desktop\\GameProgramming\\GameProgramming.csproj",
+      "projectName": "GameProgramming",
+      "projectPath": "C:\\Users\\Burak\\Desktop\\GameProgramming\\GameProgramming.csproj",
       "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Burak\\Desktop\\NewtEST\\Empty\\obj\\",
+      "outputPath": "C:\\Users\\Burak\\Desktop\\GameProgramming\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

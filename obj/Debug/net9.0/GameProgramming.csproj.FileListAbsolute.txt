@@ -1,0 +1,14 @@
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.AssemblyInfo.cs
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\GameProgramming\bin\Debug\net9.0\GameProgramming.exe
+C:\Users\Burak\Desktop\GameProgramming\bin\Debug\net9.0\GameProgramming.deps.json
+C:\Users\Burak\Desktop\GameProgramming\bin\Debug\net9.0\GameProgramming.runtimeconfig.json
+C:\Users\Burak\Desktop\GameProgramming\bin\Debug\net9.0\GameProgramming.dll
+C:\Users\Burak\Desktop\GameProgramming\bin\Debug\net9.0\GameProgramming.pdb
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.dll
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\refint\GameProgramming.dll
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.pdb
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\GameProgramming.genruntimeconfig.cache
+C:\Users\Burak\Desktop\GameProgramming\obj\Debug\net9.0\ref\GameProgramming.dll
