@@ -175,6 +175,11 @@ public class Pet
         {
             OnActivityPerformed($"{Name} is going to spend some time on their own...");
             
+            // Decrease all stats based on minutes passed
+            Hunger = Math.Max(0, Hunger - minutes);
+            Sleep = Math.Max(0, Sleep - minutes);
+            Fun = Math.Max(0, Fun - minutes);
+            
             int eventCount = random.Next(1, Math.Max(2, minutes / 5)); // One event every ~5 minutes
             
             for (int i = 0; i < eventCount; i++)
@@ -190,7 +195,17 @@ public class Pet
             }
             
             // Final status update
-            OnStatusChanged($"{Name} finished spending time on their own!");
+            OnStatusChanged($"{Name} finished spending time on their own! Stats decreased by {minutes}.");
+            OnStatusChanged($"Current stats - Hunger: {Hunger}%, Energy: {Sleep}%, Fun: {Fun}%");
+            
+            // Check for death condition after time has passed
+            if (IsDead)
+            {
+                string cause = Hunger <= 0 ? "hunger" : (Sleep <= 0 ? "exhaustion" : "depression");
+                string deathMessage = $"{Name} has died from {cause}... 😢";
+                OnStatusChanged(deathMessage);
+                PetDied?.Invoke(this, new PetStatusEventArgs(deathMessage));
+            }
         }
         catch (Exception)
         {
